@@ -53,7 +53,7 @@ while True:
         for i in range(num):
             data.append(int(input()))
         data = list(set(data))
-        print(data)
+        
         data = sorted(data)
         for i in data:
             print(i)
